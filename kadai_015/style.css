@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url(https://fonts.google.com/?query=Josefin+Sans);
+}
+
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.cl_skyblue {
+   color: skyblue;
+}
+
+.cl_pink {
+  color: rgb(255,192,203); 
+}
+
+h1 {
+  /*text-decoration: underline;*/
+  text-shadow: 1px 1px 2px gray;
+  font-size: 2.0rem;
+  letter-spacing: 1.2em;
+  font-family: 'Josefin Sans';
+  /*src: url(https://fonts.google.com/?query=Josefin+Sans);*/
+  border-bottom: solid 3px rgb(115, 115, 114);
+}
+
+#basic > p {
+  font-weight: bold;
+}
+
