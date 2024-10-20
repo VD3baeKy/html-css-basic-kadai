@@ -1,0 +1,88 @@
+div#top {
+  width: 800px;
+  background-color: #dcc9f4;
+  margin: 20px auto;
+  /*padding: 20px;*/
+  text-align: center;
+}
+
+div p.top-child {
+  display: inline-block;
+  width: 20%;
+  background-color: #ffd9df;
+}
+
+div#middle {
+  width: 800px;
+  height: 800px;
+  margin: 20px auto;
+  background-color: #ffd9df;
+}
+
+div#middle > #middle-child01 {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  /*margin: 20px;*/
+  background-color: #87ceeb;
+}
+
+div#middle > #middle-child02 {
+  position: relative;
+  top: 100px;
+  left: 300px;
+  width: 200px;
+  height: 200px;
+  /*margin: 20px;*/
+  background-color: #87ceeb;
+}
+
+div#middle > #middle-child03 {
+  position: relative;
+  top: 100px;
+  left: 500px;
+  width: 200px;
+  height: 200px;
+  /*margin: 20px;*/
+  background-color: #87ceeb;
+}
+
+div#bottom {
+  margin: 0 auto;
+  width: 800px;
+  height: 300px;
+  /*margin: 20px;*/
+  background-color: #87ceeb;
+}
+
+div#bottom > #bottom-child01 {
+  /*position: relative;
+  top: 100px;
+  left: 100px;*/
+  width: 400px;
+  height: 100px;
+  /*margin: 20px;*/
+  background-color: #e5dcf0;
+}
+
+div#bottom > #bottom-child02 {
+  position: relative;
+  /*top: 100px;*/
+  left: 200px;
+  width: 400px;
+  height: 100px;
+  /*margin: 20px;*/
+  background-color: #e5dcf0;
+}
+
+div#bottom > #bottom-child03 {
+  position: relative;
+  /*top: 100px;*/
+  left: 400px;
+  width: 400px;
+  height: 100px;
+  /*margin: 20px;*/
+  background-color: #e5dcf0;
+}
