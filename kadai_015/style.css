@@ -3,7 +3,7 @@
   src: url(https://fonts.google.com/?query=Josefin+Sans);
 }
 
-body {
+:root {
   font-family: "Arial", "Meiryo", sans-serif;
   font-size: 20px;
   text-align: center;
